@@ -1,0 +1,38 @@
+.catalogos-view {
+  padding: 2rem;
+}
+
+.catalogos-view h2 {
+  margin-bottom: 1rem;
+}
+
+.catalogos-view button {
+  margin-bottom: 1rem;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.catalogos-view button:hover {
+  background-color: #005fa3;
+}
+
+.distritos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.distrito-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.distrito-card h3 {
+  margin-top: 0;
+}

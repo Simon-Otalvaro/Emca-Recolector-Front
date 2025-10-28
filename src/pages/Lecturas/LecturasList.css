@@ -1,0 +1,32 @@
+.lecturas-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lecturas-list h2 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #e2e8f0;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f5f9;
+  color: #334155;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
